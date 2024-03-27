@@ -8,12 +8,13 @@ Grandes telas: acima de 1200px
 */
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
-    body {
+    body { /*  Configuração para Tablet */
         background-image: linear-gradient(to top, #583302, #411e2b);
     }
 
     section#login {
         width: 80vw;
+        height: 320px;
     }
 
     section#login > div#imagem {
@@ -30,12 +31,13 @@ Grandes telas: acima de 1200px
 }
 
 @media screen and (min-width: 992px) {
-    body {
+    body { /*  Telas Desktop */
         background-image: linear-gradient(to top, #583302, #411e2b, rgb(141, 3, 3));
     }
 
     section#login {
         width: 950px;
+        height: 400px;
     }
 
     section#login > div#imagem {
